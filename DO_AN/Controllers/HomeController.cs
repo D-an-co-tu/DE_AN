@@ -30,7 +30,11 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Log_in()
+    public IActionResult Register()
+    {
+        return View();
+    }
+    public IActionResult Login()
     {
         return View();
     }

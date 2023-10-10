@@ -1,10 +1,8 @@
-﻿xbody {
-margin:0;
-background-color:white;
-}
-body section {
-    padding-bottom:10px;
+﻿body {
+    margin: 0;
+    width: 100%;
     background-color: rgb(245,245,247);
+    overflow-x: hidden;
 }
 .Series_Iphone span{
     padding:10px 2% 3%;
@@ -31,15 +29,18 @@ body section {
     font-size: 30px;
 }
 .classify_equipment {
+    display:flex;
     width:87%;
-    display: flex;
     margin: 20px 0 0 6%;
 }
 .classify_equipment a{
-    width: 87%;
-    display: flex;
-    margin: 20px 0 0 6%;
+    display: block;
 }
+.equipment a{
+    color:black;
+    display:block;
+    text-decoration:none;
+} 
 .equipment {
     width:25%;
     border-radius: 10px;
@@ -52,6 +53,10 @@ body section {
     width:100%;
     padding-top:20px;
 }
+.equipment a > p{
+    width:100%;
+    padding-top:20px;
+}
 .equipment> img
 {
     display: flex;
@@ -59,8 +64,14 @@ body section {
     width:256px;
     height:max-content;
 }
-.equipment :hover{
-    filter:brightness(105%);
+.iphone14 {
+    display: flex;
+    justify-content: center;
+    width: 256px;
+    height: max-content;
+}
+.equipment :hover {
+    filter: brightness(105%);
 }
 .coin{
     width:100%;
@@ -70,11 +81,11 @@ body section {
     width: 100%;
     min-height: 40px;
 }
-.equipment-boss a {
+.equipment-boss > a {
     text-decoration: none;
 }
 .equipment-boss > a > p {
-    margin: 10px 42%;
+    margin: 30px auto;
     border-radius: 5px;
     text-align: center;
     width: 200px;
@@ -98,14 +109,6 @@ body section {
 .equipment-boss > a > p:hover {
     color: white;
     background-color: rgb(0,101,204);
-}
-.coin{
-    width:100%;
-    padding:30px 0;
-}
-.name_equipment {
-    width: 100%;
-    min-height: 20px;
 }
 .next_page{
     margin:15px 0;
