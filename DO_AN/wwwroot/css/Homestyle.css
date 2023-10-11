@@ -20,6 +20,7 @@
     font-size: 30px;
 }
 .classify_equipment {
+    justify-content:center;
     display:flex;
     width:87%;
     margin: 20px 0 0 6%;
@@ -51,8 +52,7 @@
 .equipment> img
 {
     display: flex;
-    justify-content: center;
-    width:256px;
+    width:auto;
     height:max-content;
 }
 .iphone14 {
