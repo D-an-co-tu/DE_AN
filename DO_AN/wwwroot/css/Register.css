@@ -10,7 +10,9 @@
 }
 
 .page {
-    margin: 20px 10%;
+    padding: 5px 6.3%;
+    background: white;
+    height: fit-content
 }
 .page a {
 font-size:15px;

@@ -10,7 +10,7 @@ function validate() {
     var flag = true;
     // 1 username
     var name = getValue('username');
-    if (name == '' || name.length < 5 || !/^[a-zA-Z0-9]+$/.test(name)) {
+    if (name == '' || name.length < 5) {
         flag = false;
         showError('username', 'Vui lòng kiểm tra lại Username');
     }
